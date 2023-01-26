@@ -1,0 +1,206 @@
+*{
+
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+    font-family: "inter";
+    background-color: #E5E5E5;
+
+
+}
+
+
+.cabecalho{
+
+    padding: 2%;
+
+}
+
+
+.conteudo-principal{
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.input{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 65%;
+  gap: 20px;
+  margin: 45px;
+
+
+}
+
+#input-text{
+
+    font-weight: 400;
+    font-size: 32px;
+    color: #0A3871;
+     background-color: transparent;
+     box-shadow: none;
+    resize: none;
+     border: none;
+    outline: 0;
+     height: 90%;
+     width: 70%;
+     padding: 25px;
+
+}
+
+
+#atention{
+
+    font-weight: 400;
+    font-size: 14px;
+
+
+}
+
+.buttons{
+   
+    display: flex;
+    column-gap: 15px;
+
+}
+
+
+button {
+
+    width: 300px;
+    height: 57px;
+    bottom: 100px;
+    border-radius: 24px;
+    border: none;
+    background-color: #0A3871;
+    color: white;
+    cursor: pointer;
+   
+    }
+
+#descriptografar{
+
+
+    background-color: #D8DFE8;
+    border: 1px solid  #0A3871;
+    color: #0A3871;
+
+
+}
+
+.btn-copiar{
+
+    width: 150px;
+    height: 50px;
+    gap: 20px;
+    margin-left: 32px;
+    margin-right: 10px;
+    margin-bottom:10%;
+    border-radius: 24px;
+    border: none;
+    background-color: #0A3871;
+    color: white;
+    cursor: pointer;
+
+}
+
+.btn-limpar{
+
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    border-radius: 24px;
+    border: none;
+    background-color: #0A3871;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+
+
+
+#output{
+    margin-right: 50px;
+    margin-bottom: 65px;
+    background: white;
+    border-radius: 30px;
+    width:400px ;
+    height: 500px;
+    padding: 2%;
+    cursor: pointer;
+
+}
+
+
+#output h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+
+
+#output p {
+  font-size: 16px;
+  font-weight: 400;
+
+
+color: #495057;
+	text-align: center;
+}
+
+
+
+#output-text{
+
+
+  font-weight: 400;
+   font-size: 32px;
+    color: #0A3871;
+    background-color: transparent;
+        box-shadow: none;
+    resize: none;
+    border: none;
+    outline: 0;
+    height: 100%;
+    width: 70%;
+    padding: 25px;
+    
+
+
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top:5px ;
+    background:#0A3871;
+    color:white;
+}
+
+.rodape h3{
+    font-size: 13px;
+}
+
+.icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color: black;
+}
+
+.icons ion-icon:hover{
+    color:white;
+}
